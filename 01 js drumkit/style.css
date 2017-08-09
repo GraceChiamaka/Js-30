@@ -1,0 +1,36 @@
+body{
+	background-image: url('../images/austin-neill-174636.jpg');
+	background-size: cover;
+	height: 623px;
+	background-repeat: no-repeat;
+}
+.col-md-2{
+	border:2px solid;
+	margin-bottom:10px;
+	margin-top: 10px;
+}
+.key{
+	height: 70px;
+	width:100px;
+	border:2px solid;
+	margin: auto;
+	background: transparent;
+	transition: all 0.07s;
+}
+kbd{
+	height: 40px;
+	display: block;
+	font-size: 20px;
+	text-align: center;
+	background: transparent;
+}
+span{
+	text-align: center;
+	margin-left: 2em;
+	color: gold;
+}
+.playing{
+	transform: scale(1.1);
+	border-color: #ffc600;
+	box-shadow: 0 0 10px #ffc600;
+}
